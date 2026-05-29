@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Styled To-Do List</title>
+    <link rel="stylesheet" href="./styles.css">
+    <style>
+      .sub-item-link {
+  text-decoration: None;
+}
+.sub-item-link:link{
+  color: #0066cc; ;
+}
+.sub-item-link:visited{
+  color: #551a8b;;
+}
+.sub-item-link:hover{
+  color: #ff5733;
+}
+.sub-item-link:focus{
+  outline:2px solid #000000;
+}
+.sub-item-link:active{
+  color: #cc0000;
+}
+    </style>
+</head>
+
+<body>
+    <ul class="todo-list" >
+        <li> 
+            <input type="checkbox" id="first-task">
+            <label for="first-task">Finished Development Fundamentals</label>
+            <ul class="sub-item">
+                <li> <a  class="sub-item-link" href="https://www.freecodecamp.org/learn" class="sub-item-link" target="_blank" rel="noopener noreferrer" >Responsive Web Design</a></li>
+                <li> <a  class="sub-item-link" href="https://www.freecodecamp.org/learn" class="sub-item-link" target="_blank" rel="noopener noreferrer" >Frontend Development</a></li>
+                <li> <a  class="sub-item-link" href="https://www.freecodecamp.org/learn" class="sub-item-link" target="_blank" rel="noopener noreferrer" >JavaScript</a></li>
+                <li> <a  class="sub-item-link" href="https://www.freecodecamp.org/learn" class="sub-item-link" target="_blank" rel="noopener noreferrer" >Python</a></li>
+                <li> <a  class="sub-item-link" href="https://www.freecodecamp.org/learn" class="sub-item-link" target="_blank" rel="noopener noreferrer" >Relational Database</a></li>
+                <li> <a  class="sub-item-link" href="https://www.freecodecamp.org/learn" class="sub-item-link" target="_blank" rel="noopener noreferrer" >Backend APIs</a></li>
+            </ul>
+        </li>
+        <li>
+            <input type="checkbox" id="second-task">
+            <label for="second-task">Math Intermidiate for AI/ML and College Semester Exam</label>
+            <ul class="sub-item" >
+                <li><a  class="sub-item-link" href="https://thirdspacelearning.com/us/math-resources/topic-guides" target="_blank" rel="noopener noreferrer" >Algebra</a></li>
+                <li><a  class="sub-item-link" href="https://thirdspacelearning.com/us/math-resources/topic-guides"target="_blank" rel="noopener noreferrer" >Linear Algebra</a></li>
+            
+                <li><a  class="sub-item-link" href="https://thirdspacelearning.com/us/math-resources/topic-guides/" target="_blank" rel="noopener noreferrer" >Set Theory</a></li>
+            
+                <li><a class="sub-item-link" href="https://thirdspacelearning.com/us/math-resources/topic-guides/" target="_blank" rel="noopener noreferrer" >Calculus</a></li>
+            
+                <li><a  class="sub-item-link" href="https://thirdspacelearning.com/us/math-resources/topic-guides/" target="_blank" rel="noopener noreferrer" >Probablity and Statistics</a></li>
+            
+                <li><a  class="sub-item-link" href="https://thirdspacelearning.com/us/math-resources/topic-guides/" target="_blank" rel="noopener noreferrer" >Linear Algebra</a></li>
+            </ul>
+        </li>
+        <li>
+            <input type="checkbox" id="third-task">
+            <label for="third-task">Daily DSA Practice</label>
+            <ul class="sub-item" >
+                <li>
+                    <a class="sub-item-link" href="https://thirdspacelearning.com/us/math-resources/topic-guides/" rel="noorpener noreferrer" target="_blank">Today 15 problems(30.05.26)</a>
+                </li></ul>
+        </li>
+        <li>
+            <input type="checkbox" id="fourth-task">
+            <label for="fourth-task" >Communation Skills</label>
+            <ul class="sub-item" >
+                <li>
+                    <a class="sub-item-link" href="https://thirdspacelearning.com/us/math-resources/topic-guides/" rel="noorpener noreferrer" target="_blank">Daily Speaking/Explaining What you did and reviewing trying to be better every versions.  </a>
+                </li>
+                <li><a  class="sub-item-link" href="https://thirdspacelearning.com/us/math-resources/topic-guides/">Daily Explaining DSA problems to a begineer and a High skilled proffessional</a></li>
+                </ul>
+        </li>
+    </ul>
+
+</body>
+
+</html>
